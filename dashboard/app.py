@@ -19,9 +19,9 @@ st.set_page_config(
 # LOAD DATA
 # --------------------------------------------------
 
-data_file = r"C:\Users\Yash 8939\OneDrive\Desktop\Digital-India-Dashboard\data\processed\digital_india_cleaned.csv"
+data_file = "data/processed/digital_india_cleaned.csv"
 
-forecast_file = r"C:\Users\Yash 8939\OneDrive\Desktop\Digital-India-Dashboard\data\processed\internet_forecast.csv"
+forecast_file = "data/processed/internet_forecast.csv"
 
 df = pd.read_csv(data_file)
 
